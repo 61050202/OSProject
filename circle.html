@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <script>
+            function cal(){
+                var r=document.form1.radius.value;                
+                var area = 3.14*r*r;
+                alert("Area = "+area);
+            }            
+        </script>
+    </head>
+    <body>    
+        <form name="form1"  method="get">    
+            รัศมี : <input type="let" name="radius" value=""><br><br>
+            
+            <input type="button" onclick="cal()" value="คำนวนพื้นที่">                          
+            <input type="button" onclick="javascript:history.back();" value="กลับหน้าหลัก">
+
+        </form>
+    </body>
+</html>

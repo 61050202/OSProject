@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <script>
+            function cal(){
+                var w=document.form1.wide.value;
+                var l=document.form1.long.value;
+                var area = w*l;
+                alert("Area = "+area);
+            }            
+        </script>
+    </head>
+    <body>    
+        <form name="form1"  method="get">    
+            กว้าง : <input type="let" name="wide" value=""><br><br>
+            ยาว : <input type="let" name="long" value=""><br><br>
+            <input type="button" onclick="cal()" value="คำนวนพื้นที่">                          
+            <input type="button" onclick="javascript:history.back();" value="กลับหน้าหลัก">
+        </form>
+    </body>
+</html>
