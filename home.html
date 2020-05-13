@@ -1,20 +1,111 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Select</title>
-        <script>alert("เลือกรูปแบบที่คำนวน");</script>
+        <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
     </head>
-    <body>
-        
-        <h1> โปรแกรมคำนวนพื้นที่ </h1>
-        <form  action="/square" method="get">
-            <input type="submit" value="Square">    
-        </form>
-        <form  action="/traingle" method="get">
-            <input type="submit" value="Traingle">    
-        </form>
-        <form  action="/circle" method="get">
-            <input type="submit" value="Circle">    
-        </form>
+    <style>
+    body{
+        background-image: url('https://i.imgur.com/FD9LuwN.gif?noredirect');
+        background-size: cover;
+        font-family:Kanit;
+        font-size: 15px;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+
+    }
+    
+.button {
+  display: inline-block;
+  padding: 15px 80px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(75, 1, 136);
+  background-color: rgb(250, 169, 157);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(219, 217, 217);
+}
+
+.button:hover {background-color: #f18080}
+
+.button:active {
+  background-color: #f18080;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2 {
+  display: inline-block;
+  padding: 15px 70px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(75, 1, 136);;
+  background-color: rgb(246, 165, 235);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(219, 217, 217);
+}
+
+.button2:hover {background-color: rgb(233, 103, 215)}
+
+.button2:active {
+  background-color: rgb(233, 103, 215);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button3 {
+  display: inline-block;
+  padding: 15px 90px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(75, 1, 136);
+  background-color: rgb(252, 223, 126);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(219, 217, 217);
+}
+
+.button3:hover {background-color: rgb(241, 194, 40)}
+
+.button3:active {
+  background-color: rgb(241, 194, 40);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+f1 {
+color: rgb(235, 185, 77);
+font-size: 50px;
+font-family:kanit;
+}
+
+</style>
+<body>
+
+<br><br><br><br><br>
+
+<center>
+        <f1> โปรแกรมคำนวนพื้นที่ </f1>
+<br><br><br>
+
+<a href="/square"><button class="button">สี่เหลี่ยม</button></a><br><br><br>
+
+
+<a href="/traingle"><button class="button2">สามเหลี่ยม</button></a><br><br><br>
+
+
+<a href="/circle"><button class="button3">วงกลม</button></a><br><br><br>
+</center>
     </body>
 </html>
